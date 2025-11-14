@@ -35,6 +35,7 @@ RUN cd /root \
         --with-mqtt-client \
         --with-convolution \
         --sysconfdir=/config \
+        --with-airplay-2 \
        #  --with-apple-alac \
  && make \
  && make install \
